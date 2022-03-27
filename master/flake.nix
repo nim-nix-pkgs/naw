@@ -11,6 +11,7 @@
   inputs.src-naw-master.ref   = "refs/heads/master";
   inputs.src-naw-master.owner = "capocasa";
   inputs.src-naw-master.repo  = "naw";
+  inputs.src-naw-master.dir   = "";
   inputs.src-naw-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
